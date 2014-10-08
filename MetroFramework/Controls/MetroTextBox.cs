@@ -32,6 +32,7 @@ using MetroFramework.Interfaces;
 namespace MetroFramework.Controls
 {
     [Designer("MetroFramework.Design.Controls.MetroTextBoxDesigner, " + AssemblyRef.MetroFrameworkDesignSN)]
+    [DefaultBindingProperty("Text")]
     public class MetroTextBox : Control, IMetroControl
     {
         #region Interface
